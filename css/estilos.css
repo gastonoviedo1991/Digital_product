@@ -1,0 +1,228 @@
+/* Variables*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+:root
+{
+    --green-color: #7ACC2D;
+    --white-color: white;
+    --black-color: #313337;
+    /*Tipografia*/
+    --normal:12px;
+    /*Espaciado*/
+    --space:10px;
+    /*Box Shadow*/
+    --box: 0 0 2px 1px #e6e5e9;
+}
+/* Variables*/
+
+
+html, body
+{
+    padding: 0;
+    margin: 0;    
+    font-family: 'Open Sans', sans-serif;
+    color: var(--black-color);
+}
+
+p, label
+{
+    font-size: var(--normal);
+}
+
+
+
+nav
+{
+    display: flex;
+    background-color: var(--green-color);
+    padding: var(--space);
+    justify-content: space-between;
+    align-items: center;
+    min-height: 60px;
+}
+
+nav ul
+{
+    display: flex;
+}
+
+nav li
+{
+    padding-left: 20px;
+    list-style: none;
+
+}
+
+nav li a
+{
+    color: var(--black-color);
+    text-decoration: none;
+}
+
+nav li a:hover
+{
+    color: var(--white-color);
+}
+
+.main_section
+{
+    padding: 15%;
+    text-align: center;
+}
+
+.products
+{
+    background-image: url("../images/curve.png");
+    max-height: 50px;
+    background-size: cover;
+    background-position: center top;
+    padding: 20%;
+    display: flex;
+}
+
+.product
+{
+    padding: var(--space);
+    margin-top: -240px;
+
+}
+
+.product .content
+{
+    background-color: var(--white-color);
+    padding: 15px;
+    box-shadow: var(--box);
+}
+
+.img_content
+{
+    text-align: center;
+}
+
+.main_btn{
+    padding: var(--space);
+    background-color: var(--green-color);
+    width: 100%;
+    border: 0px;
+    border-radius: 2px;
+    cursor: pointer;
+    color: var(--white-color);
+}
+
+.main_button
+{
+    background-color: var(--green-color);
+    width: 100%;
+    padding: var(--space);
+    font-size: 17px;
+    color: var(--white-color);
+    border: 0;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.main_button:hover
+{
+    background-color: #5a9e22;
+}
+
+.products_description
+{
+    background-color: var(--white-color);
+    height: 300px;
+    padding: 50px;
+    display:flex;
+}
+
+.products_description .description_content
+{
+    background-color: var(--white-color);
+    padding: 15px;
+    box-shadow: var(--box);
+}
+
+.products_description .description_content .img_description_content
+{
+    text-align: center;
+}
+
+.mencions
+{
+    height: 1000px;
+    top: 1436px;
+}
+
+.mencions h1
+{
+    top: 1350px;
+    left: 139px;
+    width: 1003px;
+    height: 47px;
+
+    text-align: center;
+    font: Bold 30px/41px Open Sans;
+    letter-spacing: 0px;
+    color: #313337;
+    opacity: 1;
+}
+
+.mencions .mencions_content
+{
+    display: flex;
+}
+
+.mencions .mencions_content .img_description_content
+{
+    top: 1436px;
+    left: 138px;
+    width: 239px;
+    height: 105px;
+    border-radius: 2px 2px 0px 0px;
+    opacity: 1;
+    text-align: center;
+}
+
+.modulo_pago
+{
+    background-color: var(--white-color);
+    box-shadow: var(--box);
+    padding: var(--space);
+}
+
+.modulo_pago_images
+{
+    max-width: 150px;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}
+
+footer
+{
+    display: flex;
+    justify-content: space-between;
+    font-size: var(--normal);
+    background-color: var(--black-color);
+    padding: var(--space);
+    color: var(--white-color);
+}
+
+.contact a
+{
+    color: var(--green-color);
+}
+
+.data
+{
+    margin-top: var(--space);
+    width: 100%;
+    padding: 5px;
+    border-radius: 2px;
+    border: 1px solid var(--black-color);
+    box-sizing: border-box;
+}
+
+.modulo_pago .main_btn
+{
+    margin-top: 10px;
+}
